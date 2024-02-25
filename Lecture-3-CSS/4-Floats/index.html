@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent{
+            border: 2px solid yellowgreen;
+            
+        }
+        .img{
+            float: left;
+            width: 35%;
+            border: 3px solid red;
+            
+        
+
+        }
+        .about-img{
+            float: right;
+            width: 63%;
+            border: 3px solid yellow;
+            
+        }
+        .parent::after{
+            content:""; 
+            display: block;
+             clear: both;
+        }
+    </style>
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <img class="img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0ngNVX5MH6vOmhGbnTZATvebjZNjk1EVPCZIAY5kSGXd1Om3C" alt="Polar Bear">
+        <div class="about-img">
+            The largest bear in the world and the Arctic's top predator, polar bears are a powerful symbol of the strength and endurance of the Arctic. The polar bear's Latin name, Ursus maritimus, means "sea bear." It's an apt name for this majestic species, which spends much of its life in, around, or on the ocean–predominantly on the sea ice. In the United States, Alaska is home to two polar bear subpopulations.
+             Considered talented swimmers, polar bears can sustain a pace of six miles per hour by paddling with their front paws and holding their hind legs flat like a rudder. They have a thick layer of body fat and a water-repellent coat that insulates them from the cold air and water.
+        </div>
+        <div class="clarifix"></div>
+    
+    </div>
+    
+</body>
+</html>

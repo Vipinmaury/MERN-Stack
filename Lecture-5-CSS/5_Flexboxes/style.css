@@ -1,0 +1,51 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    height: 1600px;
+    /* width: 100%; */
+    border: 5px solid black;
+    margin: 30px;
+    display: flex;
+    /* flex wrap extra hone par next line me laane kaa kaam karta hai */
+    flex-wrap: wrap;
+    /* flex-direction:row-reverse 1 2 3 4 5 6 ko 6 5 4 3 2 1  kar dega*/
+    /* flex-direction: row-reverse; */
+    
+}
+.child{
+    height:300px;
+    width: 300px;
+    border:4px solid yellowgreen;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    background-color: orange;
+    
+}
+.class14{
+    padding-top: 140px;
+
+}
+.class15{
+    padding-top: 150px;
+
+}
+.class11{
+    padding-top: 250px;
+
+}
+.class10{
+    flex-grow: 2;
+
+}
+.class15{
+    flex-grow: 3;
+}
+.class14{
+    order:-1;
+}
+.class1{
+    order: 1;
+}

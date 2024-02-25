@@ -1,0 +1,12 @@
+#div-1{
+    color: orange ;
+}
+div{
+    /* !important means saari priorities gai tel lene ab yehi hoga  */
+    color:greenyellow  !important;
+    
+    
+}
+.mydiv{
+    color: purple;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grandparent{
+    min-height: 600px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 50px;
+    position: absolute;
+    
+}
+.parent{
+    border: 7px solid yellowgreen;
+    min-height: 500px;
+    font-size: 40px;
+    margin: 20px;
+    position: relative;
+}
+.child{
+    border: 5px solid red;
+    width: 400px;
+    margin:auto;
+    /* position: relative; */
+
+    position: absolute;
+    bottom:0;
+    right: 0;
+    
+}
