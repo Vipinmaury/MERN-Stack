@@ -1,0 +1,29 @@
+*{
+    font-size: 40px;
+}
+.div{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    margin: 150px auto;
+    border: 5px solid black ;
+    transition:ease-in 10s;
+    /* transition-duration: 10s;
+    transition-delay: 4s; */
+   
+}
+.div:hover{
+    transform: rotateZ(360deg);
+    background-color: darkblue;
+    /* border-radius: 70%; */
+
+}
+/* .div1{
+    width: 400px;
+    height: 500px;
+    background-color: pink;
+    margin: 150px auto;
+    border: 5px solid black;
+    transform: rotateZ(55deg);
+    
+} */
